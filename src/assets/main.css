@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+:root {
+  --primary-text-color: #BF3636;
+  --primary-background: #FFCB05;
+}
+
+
+html, body {
+  max-height: 100vh;
+  background: linear-gradient(#00A1FC, #054C74);
+  font-family: 'Roboto', sans-serif !important;
+  background-attachment: fixed; /*edit*/
+
+}
+
+.logo {
+  max-height: 6rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900 !important;
+  color: #fff;
+}
+
+.primary-text {
+  color: var(--primary-text-color) !important;
+}
+
+.thin {
+  font-weight: 400 !important;
+}
+
+.bold {
+  font-weight: 900 !important;
+}
